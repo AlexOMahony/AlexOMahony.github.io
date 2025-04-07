@@ -1,0 +1,9 @@
+{ 
+    "name": "Tap the Target", 
+    "short_name": "TapTarget", 
+    "description": "A fast-paced target-tapping game", 
+    "display": "fullscreen", 
+    "orientation": "portrait", 
+    "background_color": "#f0f0f0", 
+    "start_url": "index.html" 
+} 

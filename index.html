@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="manifest" href="manifest.json" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Kill the Vola!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="game-container">
+      <div id="score">Score: <span id="score-value">0</span></div>
+      <div id="timer">Time: <span id="time-value">30</span></div>
+      <canvas id="gameCanvas"></canvas>
+      <button id="startButton">Start Game</button>
+    </div>
+    <script src="Game.js"></script>
+  </body>
+</html>
